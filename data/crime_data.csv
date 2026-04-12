@@ -1,0 +1,181 @@
+crime_id,area,crime_type,date,hour
+1,Naroda,Robbery,2023-02-12,23
+2,Gota,Theft,2023-02-07,19
+3,Gota,Robbery,2023-02-27,11
+4,Gurukul,Theft,2023-01-25,16
+5,Bopal,Assault,2023-01-03,12
+6,Chandkheda,Burglary,2023-01-15,20
+7,Ognaj,Theft,2023-02-24,18
+8,Naroda,Theft,2023-01-30,13
+9,Science City,Theft,2023-02-02,12
+10,Bopal,Assault,2023-02-26,21
+11,Chiloda,Burglary,2023-02-10,19
+12,Chandkheda,Burglary,2023-02-19,22
+13,Ognaj,Burglary,2023-02-05,23
+14,Gota,Theft,2023-02-10,14
+15,Naroda,Robbery,2023-01-04,18
+16,Naroda,Robbery,2023-02-01,9
+17,Thaltej,Theft,2023-02-05,21
+18,Gurukul,Robbery,2023-01-29,9
+19,Ognaj,Theft,2023-01-18,20
+20,Shilaj,Theft,2023-02-02,20
+21,Gurukul,Assault,2023-01-21,21
+22,Thaltej,Assault,2023-01-01,21
+23,Chandkheda,Theft,2023-02-28,13
+24,Chandkheda,Burglary,2023-02-16,19
+25,Science City,Burglary,2023-02-04,21
+26,Shilaj,Assault,2023-02-09,6
+27,Gurukul,Burglary,2023-01-09,19
+28,Chandkheda,Theft,2023-02-11,21
+29,Bopal,Theft,2023-01-22,20
+30,Chandkheda,Robbery,2023-01-14,23
+31,Science City,Assault,2023-02-25,20
+32,Gota,Burglary,2023-02-16,10
+33,Chiloda,Burglary,2023-02-10,14
+34,Gurukul,Burglary,2023-01-05,22
+35,Chiloda,Robbery,2023-01-11,19
+36,Ognaj,Robbery,2023-01-21,19
+37,Bopal,Burglary,2023-02-07,19
+38,Shilaj,Robbery,2023-01-15,11
+39,Gota,Robbery,2023-01-14,22
+40,Gurukul,Theft,2023-01-25,14
+41,Naroda,Burglary,2023-02-05,23
+42,Naroda,Burglary,2023-01-22,22
+43,Shilaj,Robbery,2023-01-01,23
+44,Naroda,Robbery,2023-02-11,17
+45,Bopal,Theft,2023-02-12,20
+46,Chiloda,Theft,2023-01-23,17
+47,Thaltej,Theft,2023-02-11,19
+48,Gurukul,Robbery,2023-01-14,21
+49,Chiloda,Robbery,2023-01-16,18
+50,Naroda,Assault,2023-02-08,23
+51,Chiloda,Robbery,2023-01-11,15
+52,Naroda,Burglary,2023-02-20,13
+53,Naroda,Robbery,2023-01-24,12
+54,Thaltej,Burglary,2023-02-21,19
+55,Gota,Robbery,2023-02-24,13
+56,Shilaj,Theft,2023-01-07,8
+57,Naroda,Burglary,2023-01-07,23
+58,Science City,Burglary,2023-01-22,17
+59,Naroda,Assault,2023-02-07,19
+60,Chandkheda,Theft,2023-01-26,20
+61,Bopal,Assault,2023-01-16,13
+62,Thaltej,Theft,2023-01-25,18
+63,Chiloda,Burglary,2023-02-09,10
+64,Gurukul,Robbery,2023-02-14,6
+65,Naroda,Robbery,2023-01-01,22
+66,Ognaj,Theft,2023-02-05,23
+67,Gota,Assault,2023-02-02,11
+68,Naroda,Robbery,2023-01-25,22
+69,Chandkheda,Burglary,2023-02-24,23
+70,Naroda,Theft,2023-02-22,19
+71,Ognaj,Theft,2023-01-09,14
+72,Bopal,Theft,2023-02-04,21
+73,Bopal,Burglary,2023-01-30,19
+74,Naroda,Burglary,2023-02-15,21
+75,Shilaj,Assault,2023-01-16,22
+76,Shilaj,Burglary,2023-01-06,18
+77,Science City,Theft,2023-01-18,15
+78,Naroda,Theft,2023-01-16,19
+79,Chiloda,Theft,2023-01-23,7
+80,Shilaj,Robbery,2023-02-02,23
+81,Chandkheda,Burglary,2023-02-16,20
+82,Naroda,Burglary,2023-01-16,23
+83,Thaltej,Assault,2023-02-12,20
+84,Gurukul,Theft,2023-01-27,19
+85,Gota,Theft,2023-02-02,10
+86,Gota,Robbery,2023-01-25,13
+87,Chandkheda,Burglary,2023-02-16,22
+88,Naroda,Robbery,2023-02-13,15
+89,Naroda,Theft,2023-02-21,21
+90,Thaltej,Burglary,2023-02-09,16
+91,Chandkheda,Theft,2023-01-26,21
+92,Thaltej,Theft,2023-02-25,20
+93,Gota,Theft,2023-01-21,23
+94,Naroda,Burglary,2023-01-15,6
+95,Naroda,Theft,2023-01-07,22
+96,Science City,Burglary,2023-02-17,22
+97,Science City,Burglary,2023-01-15,23
+98,Gurukul,Theft,2023-02-08,12
+99,Chandkheda,Burglary,2023-01-29,17
+100,Gurukul,Robbery,2023-02-07,15
+101,Gota,Theft,2023-01-27,22
+102,Chiloda,Robbery,2023-02-26,6
+103,Chiloda,Robbery,2023-02-27,17
+104,Thaltej,Burglary,2023-02-10,20
+105,Bopal,Assault,2023-01-10,9
+106,Bopal,Burglary,2023-02-21,11
+107,Naroda,Theft,2023-02-27,21
+108,Naroda,Theft,2023-01-09,21
+109,Naroda,Burglary,2023-01-25,7
+110,Gota,Assault,2023-01-01,18
+111,Thaltej,Burglary,2023-02-11,6
+112,Science City,Burglary,2023-01-12,10
+113,Gota,Theft,2023-01-11,13
+114,Shilaj,Assault,2023-01-04,8
+115,Thaltej,Theft,2023-02-06,22
+116,Science City,Theft,2023-01-18,15
+117,Gurukul,Theft,2023-02-19,23
+118,Chandkheda,Burglary,2023-01-29,23
+119,Gurukul,Assault,2023-02-01,14
+120,Gota,Burglary,2023-01-15,16
+121,Gota,Burglary,2023-02-14,15
+122,Gota,Robbery,2023-02-17,7
+123,Shilaj,Assault,2023-02-28,9
+124,Naroda,Burglary,2023-01-31,16
+125,Bopal,Robbery,2023-01-02,14
+126,Science City,Robbery,2023-01-02,21
+127,Naroda,Theft,2023-01-31,21
+128,Shilaj,Burglary,2023-02-19,21
+129,Gurukul,Robbery,2023-02-03,18
+130,Thaltej,Theft,2023-01-16,23
+131,Chandkheda,Assault,2023-02-03,6
+132,Chandkheda,Theft,2023-01-07,7
+133,Chandkheda,Theft,2023-02-16,23
+134,Shilaj,Assault,2023-01-16,22
+135,Chandkheda,Burglary,2023-01-24,22
+136,Science City,Theft,2023-01-27,17
+137,Naroda,Assault,2023-01-06,17
+138,Chiloda,Assault,2023-02-24,8
+139,Chandkheda,Theft,2023-02-20,15
+140,Bopal,Burglary,2023-01-12,23
+141,Ognaj,Assault,2023-02-08,15
+142,Science City,Burglary,2023-01-12,22
+143,Chandkheda,Burglary,2023-01-17,21
+144,Chiloda,Theft,2023-02-24,12
+145,Chiloda,Theft,2023-02-02,23
+146,Ognaj,Robbery,2023-02-23,9
+147,Science City,Burglary,2023-02-12,20
+148,Chiloda,Assault,2023-02-17,22
+149,Science City,Burglary,2023-02-19,23
+150,Science City,Assault,2023-02-22,8
+151,Chiloda,Theft,2023-01-24,22
+152,Chiloda,Burglary,2023-02-21,20
+153,Chiloda,Theft,2023-01-14,21
+154,Science City,Burglary,2023-02-04,13
+155,Bopal,Theft,2023-02-25,21
+156,Gurukul,Assault,2023-01-14,20
+157,Gota,Burglary,2023-02-15,23
+158,Gurukul,Robbery,2023-01-26,13
+159,Shilaj,Assault,2023-02-24,22
+160,Gurukul,Theft,2023-02-09,19
+161,Gota,Theft,2023-02-09,21
+162,Gota,Robbery,2023-03-02,22
+163,Chandkheda,Theft,2023-01-17,12
+164,Bopal,Theft,2023-01-28,22
+165,Chandkheda,Robbery,2023-02-26,13
+166,Naroda,Burglary,2023-02-13,19
+167,Shilaj,Robbery,2023-01-06,17
+168,Science City,Theft,2023-01-17,21
+169,Bopal,Theft,2023-02-17,19
+170,Shilaj,Robbery,2023-01-12,15
+171,Thaltej,Assault,2023-01-25,20
+172,Chandkheda,Assault,2023-01-06,22
+173,Gota,Robbery,2023-01-09,21
+174,Science City,Burglary,2023-01-27,23
+175,Naroda,Burglary,2023-01-28,21
+176,Gurukul,Theft,2023-01-17,12
+177,Chandkheda,Theft,2023-02-18,23
+178,Naroda,Burglary,2023-01-27,23
+179,Bopal,Robbery,2023-01-28,19
+180,Naroda,Robbery,2023-01-15,16
