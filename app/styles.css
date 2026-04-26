@@ -1,10 +1,5 @@
-/* ================================================
-   SafeZone AI — Dark Glassmorphism Dashboard
-   ================================================ */
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap');
 
-/* ── Global ────────────────────────────────────── */
 html, body, [class*="css"] {
     font-family: 'Inter', sans-serif;
 }
@@ -21,7 +16,6 @@ html, body, [class*="css"] {
     max-width: 100%;
 }
 
-/* ── Header ────────────────────────────────────── */
 .main-header {
     display: flex;
     justify-content: space-between;
@@ -86,7 +80,6 @@ html, body, [class*="css"] {
     letter-spacing: 1.8px;
 }
 
-/* ── Pulse dot ─────────────────────────────────── */
 .dot {
     width: 7px;
     height: 7px;
@@ -103,7 +96,6 @@ html, body, [class*="css"] {
     50%      { opacity: .6; transform: scale(1.4); box-shadow: 0 0 16px #2ed573; }
 }
 
-/* ── KPI Cards ─────────────────────────────────── */
 .kpi-card {
     border-radius: 16px;
     padding: 1.4rem 1.25rem;
@@ -150,7 +142,6 @@ html, body, [class*="css"] {
 .kpi-label { color: rgba(255,255,255,0.58); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1.6px; font-weight: 500; margin-bottom: 0.4rem; }
 .kpi-sub   { color: rgba(255,255,255,0.3); font-size: 0.7rem; }
 
-/* ── Section title ─────────────────────────────── */
 .section-title {
     font-family: 'Rajdhani', sans-serif;
     font-size: 1.05rem;
@@ -162,7 +153,6 @@ html, body, [class*="css"] {
     border-bottom: 1px solid rgba(255,255,255,0.07);
 }
 
-/* ── Sidebar ───────────────────────────────────── */
 [data-testid="stSidebar"] {
     background: linear-gradient(180deg, #0c1525 0%, #090d1b 100%) !important;
     border-right: 1px solid rgba(0,212,255,0.09) !important;
@@ -204,32 +194,32 @@ html, body, [class*="css"] {
     margin-bottom: 0.6rem;
 }
 
-/* ── Risk predictor output ─────────────────────── */
 .risk-result-box {
     border-radius: 10px; border: 1px solid;
     padding: 0.7rem 1rem; margin-top: 0.6rem; text-align: center;
 }
 
-/* ── Tabs ──────────────────────────────────────── */
 .stTabs [data-baseweb="tab-list"] {
     background: rgba(255,255,255,0.03);
     border-radius: 12px; padding: 4px;
     border: 1px solid rgba(255,255,255,0.06); gap: 4px;
 }
+
 .stTabs [data-baseweb="tab"] {
     background: transparent; border-radius: 8px;
     color: rgba(255,255,255,0.45); font-weight: 500; font-size: 0.9rem;
     padding: 0.45rem 1rem; border: none !important;
     transition: all 0.2s ease;
 }
+
 .stTabs [aria-selected="true"] {
     background: linear-gradient(135deg, rgba(0,212,255,0.14), rgba(162,155,254,0.14)) !important;
     color: #ffffff !important;
     border: 1px solid rgba(0,212,255,0.2) !important;
 }
+
 .stTabs [data-baseweb="tab-panel"] { padding-top: 1.25rem; }
 
-/* ── Buttons ───────────────────────────────────── */
 .stButton > button {
     background: linear-gradient(135deg, rgba(0,212,255,0.10) 0%, rgba(162,155,254,0.10) 100%) !important;
     color: #fff !important;
@@ -241,6 +231,7 @@ html, body, [class*="css"] {
     padding: 0.6rem 1.5rem !important;
     width: 100%;
 }
+
 .stButton > button:hover {
     background: linear-gradient(135deg, rgba(0,212,255,0.22) 0%, rgba(162,155,254,0.22) 100%) !important;
     border-color: rgba(0,212,255,0.55) !important;
@@ -248,7 +239,6 @@ html, body, [class*="css"] {
     box-shadow: 0 6px 24px rgba(0,212,255,0.18) !important;
 }
 
-/* ── Risk ranking rows ─────────────────────────── */
 .rank-row {
     display: flex; align-items: center; gap: 10px;
     padding: 0.65rem 0.9rem; margin-bottom: 0.45rem;
@@ -256,6 +246,7 @@ html, body, [class*="css"] {
     border-radius: 10px; border: 1px solid rgba(255,255,255,0.055);
     transition: all 0.2s ease;
 }
+
 .rank-row:hover { background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.11); }
 
 .rank-num   { color: rgba(255,255,255,0.35); font-family:'Rajdhani',sans-serif; font-weight:600; font-size:0.8rem; min-width:24px; }
@@ -265,7 +256,6 @@ html, body, [class*="css"] {
 .rank-score { font-family:'Rajdhani',sans-serif; font-size:0.88rem; font-weight:700; min-width:30px; text-align:right; }
 .rank-level { font-size:0.72rem; min-width:68px; text-align:right; }
 
-/* ── Alert feed ────────────────────────────────── */
 .alert-header-bar {
     display: flex; align-items: center; gap: 8px;
     color: #2ed573; font-size: 0.72rem; font-weight: 700; letter-spacing: 2px;
@@ -273,13 +263,16 @@ html, body, [class*="css"] {
     background: rgba(46,213,115,0.05);
     border: 1px solid rgba(46,213,115,0.18); border-radius: 8px;
 }
+
 .alert-card {
     background: rgba(255,255,255,0.04);
     border-radius: 10px; padding: 0.8rem 1rem; margin-bottom: 0.55rem;
     border: 1px solid rgba(255,255,255,0.06);
     transition: background 0.2s ease;
 }
+
 .alert-card:hover { background: rgba(255,255,255,0.07); }
+
 .alert-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:0.2rem; }
 
 .emergency-box {
@@ -289,27 +282,28 @@ html, body, [class*="css"] {
     border: 2px solid rgba(255,71,87,0.4); border-radius: 12px;
     animation: flash 0.55s ease 3;
 }
+
 @keyframes flash {
     0%,100% { border-color: rgba(255,71,87,0.4); background: rgba(255,71,87,0.09); }
     50%      { border-color: rgba(255,71,87,0.75); background: rgba(255,71,87,0.2); }
 }
+
 @keyframes slideIn {
     from { opacity: 0; transform: translateX(-18px); }
     to   { opacity: 1; transform: translateX(0); }
 }
 
-/* ── Smart insight cards ───────────────────────── */
 .insight-card {
     padding: 0.6rem 1rem; margin-bottom: 0.45rem;
     border-radius: 8px; font-size: 0.88rem;
     border-left: 3px solid;
 }
+
 .danger-card { background: rgba(255,71,87,0.07);  border-color: #ff4757; color: rgba(255,255,255,0.85); }
 .safe-card   { background: rgba(46,213,115,0.07); border-color: #2ed573; color: rgba(255,255,255,0.85); }
 .info-card   { background: rgba(0,212,255,0.07);  border-color: #00d4ff; color: rgba(255,255,255,0.85); }
 .warn-card   { background: rgba(255,165,2,0.07);  border-color: #ffa502; color: rgba(255,255,255,0.85); }
 
-/* ── Footer ────────────────────────────────────── */
 .footer {
     display: flex; justify-content: space-between; align-items: center;
     padding: 1rem 2rem; margin-top: 2rem;
@@ -318,21 +312,18 @@ html, body, [class*="css"] {
     color: rgba(255,255,255,0.28); font-size: 0.73rem; letter-spacing: 0.4px;
 }
 
-/* ── Select / Multiselect ──────────────────────── */
 .stMultiSelect [data-baseweb="select"] > div,
-.stSelectbox  [data-baseweb="select"] > div {
+.stSelectbox [data-baseweb="select"] > div {
     background: rgba(255,255,255,0.05) !important;
     border-color: rgba(255,255,255,0.1) !important;
     border-radius: 8px !important;
 }
 
-/* ── Dataframe ─────────────────────────────────── */
 .stDataFrame {
     border: 1px solid rgba(255,255,255,0.07) !important;
     border-radius: 10px !important;
 }
 
-/* ── Scrollbar ─────────────────────────────────── */
 ::-webkit-scrollbar { width: 4px; height: 4px; }
 ::-webkit-scrollbar-track { background: rgba(255,255,255,0.02); }
 ::-webkit-scrollbar-thumb { background: rgba(0,212,255,0.28); border-radius: 2px; }
